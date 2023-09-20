@@ -1,6 +1,11 @@
 ### Machine Learning Algorithms
 
-Each notebook is an explanation and implementation of a specific machine learning algorithm. 
+Each notebook is an explanation and implementation of a common machine learning algorithm. The algorithms covered include:
+- K-Means Clustering
+- K-Nearest Neighbors
+- Decision Trees, including Boosted and Random Forests
+- Support Vecor Machines
+- (Deep) Neural Networks
 
 Directory strucure:
 - data: external data sets used for the implementations of some models
