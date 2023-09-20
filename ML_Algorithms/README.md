@@ -7,7 +7,7 @@ Each notebook is an explanation and implementation of a common machine learning 
 - Support Vecor Machines
 - (Deep) Neural Networks
 
-Directory strucure:
+Directory structure:
 - data: external data sets used for the implementations of some models
 - images: supporting visuals used in model explanations
 
