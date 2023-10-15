@@ -5,6 +5,10 @@ Welcome to my portfolio of projects! It's a collection of projects that I comple
 I graduated from WWU in Spring 2023 with a B.S. Computer Science and a B.S. Applied Mathematics. I'm passionate about machine learning, quantitative analysis, and always learning something new. When I have free time I like to read, dive into a good show, go for a bike ride, and go backpacking.
 
 My projects at a glance:    
+- Bank Marketing Analysis.
+    - This is a project that I completed in my free time to do an end-to-end machine learning model. It is something that I will work on more in the future, as it has the capability to be applied in other areas where businesses want to identify clients that would subscribe to other services.
+    - Purpose: Determine a way to determine which subset of clients are more likely to subscribe to a term deposit from a banking institution’s direct marketing campaign.
+    - Outcome: Trained several supervised classification models, and chose the model with the highest F-Score on the test set. Accuracy = 89.9%, F-Score = 0.549 (beta = 0.5).
 - Technical Stock Analysis using LSTM.
     - This project is one that I did in my free time to learn more about Long Short-Term Memory and apply it to a real world problem. It was a lot of fun and gave me a deeper understanding of how it works and how it can be used outside of NLP.
     - Purpose: Create a LSTM model to forecast stock market closing prices for General Electric, using a Simple Moving Average and Exponential Moving Average as benchmark models.
