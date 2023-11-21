@@ -26,14 +26,43 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
 </head>
-<body data-spy="scroll"  class="static-layout">
+<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
+<div class="boxed-page">
+<nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <span>JM</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="lnr lnr-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbar-nav-header">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/jamccabe1/Portfolio" target="_blank">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </div> <!-- End Container -->
+</nav>
+</div>
+
 <!-- Home Section -->
 <div class="boxed-page">
 <section id="resume-home" class="bg-white">
   <div class="container">
     <div class="row text-center">
       <div class="col-sm-12">
-        <object data="img/resume-11202023.pdf" width=100% height=1150></object>
+        <iframe src="img/resume-11202023.pdf" width=100% height=1150></iframe>
       </div>
     </div>
   </div>
