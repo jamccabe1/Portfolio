@@ -248,6 +248,15 @@ a {
   padding-top: 120px;
 }
 
+#resume-home {
+  padding-top: 120px;
+}
+
+#pdf {
+ position: absolute;
+ left: 25%;
+}
+
 .filter-button-group {
   margin-bottom: 15px; }
   .filter-button-group a {
